@@ -10,6 +10,7 @@ def getDriversDetails():
         driverName = info[2]
         driverTeam = info[3]
         driversDetails[driverCode] = (driverName,driverTeam)
+    details.close()
     return driversDetails
 
 
@@ -27,6 +28,7 @@ def processFile(filename):
         if driverCode not in timeline:
             timeline[driverCode] = []       #to make each value a list
         timeline[driverCode].append(lapTime)        #.append() works since each value is now a list
+    f.close()
     return timeline
 
 def displayFastest(timeline, details):
@@ -71,9 +73,9 @@ def displayFastestTimesDescending(timeline,details):
 
 def menu():
     print("""1. Fastest Driver
-2. Overall Average Speed of Drivers
-3. Average Speed of Each Driver
-4. Fastest Speed of Each Driver (Descending)""")
+2. Overall Average Time of Drivers
+3. Average Time of Each Driver
+4. Fastest Time of Each Driver (Descending)""")
     print("Enter X once you are ready to exit")
 
 def choose(timeline,details):
