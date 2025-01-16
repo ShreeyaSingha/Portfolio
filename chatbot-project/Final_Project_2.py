@@ -32,10 +32,11 @@ def respond(prompt, agent, name):
         else:
             response = choice(["Please explain further.", "Can you tell me more?", "I see, could you expand?"])
             logChat(agent, response)
+            # break     #causes problems????
     print(f"{agent}:", response)
     nextPrompt = input("You: ")
-    logChat(name, nextPrompt)
     if nextPrompt.lower() in exitPrompts:
+        logChat(name, nextPrompt)
         return
     else:
         respond(nextPrompt, agent, name)
