@@ -1,3 +1,5 @@
+CHAT LOG
+
 shreeya: where could i go to eat something? 
 Lester: The campus cafe is open from 7am-5pm. 
 shreeya: will it be near class? 
@@ -192,3 +194,30 @@ Kory: Can you tell me more?
 shree: bye 
 shreeya: bye 
 []: bye 
+[]: where can i go to eat 
+Emerson: The campus cafe is open from 7am-5pm. 
+[]: ok bye 
+shree: i was looking for a place to study and eat 
+Kirsten: The campus cafe is open from 7am-5pm. 
+shree: is the library opem? 
+Kirsten: Can you tell me more? 
+shree: is the library open? 
+Kirsten: Please explain further. 
+shree: bye 
+shree: is the library open? 
+Robby: I see, could you expand? 
+shree: i need a place to study 
+Robby: I see, could you expand? 
+shree: no 
+Robby: Please explain further. 
+shree: bye 
+lucy: is the library open? 
+Minerva: Please explain further. 
+musa: is the library open? 
+Casey: I see, could you expand? 
+Casey: Can you tell me more? 
+Casey: Please explain further. 
+Casey: The library is open from 8am-6pm. 
+musa: where can i go to eat food and drink? 
+Casey: The campus cafe is open from 7am-5pm. 
+musa: ok thank you 
